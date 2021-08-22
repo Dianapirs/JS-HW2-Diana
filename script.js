@@ -36,8 +36,17 @@ console.log('');
 
 // Fifth task
 console.log('Fifth task');
-    a = 0;
-let b = 1;
+    a = 10;
+let b = 2;
 console.log('Сумма равна ' + (a + b) + '. Разность равна ' + (a - b) + '. Произведение равно ' + (a * b) + '. Частное равно ' + (a / b) + '.');
 ((a + b) > 1) ? console.log('Сумма в квадрате равна ' + ((a + b) ** 2)) : console.log('Сумма меньше либо равна единице');
+console.log('');
+
+// Sixth task
+console.log('sixth task');
+if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+    console.log('Верно!');
+} else {
+    console.log('Неверно!');
+}
 console.log('');
