@@ -16,3 +16,11 @@ console.log('Second task');
 let yearOfBirth = 2021 - age;
 console.log(name + ' родился(лась) в ' + yearOfBirth + ' году.');
 document.write(name + ' родился(лась) в ' + yearOfBirth + ' году.');
+console.log('');
+
+// Third task
+console.log('Third task');
+let str = '465393';
+((Number(str[0]) + Number(str[1]) + Number(str[2])) == (Number(str[3]) + Number(str[4]) + Number(str[5]))) ? console.log('Да') : console.log('Нет');
+console.log('');
+
