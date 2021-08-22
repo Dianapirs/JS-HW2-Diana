@@ -33,3 +33,11 @@ let a = 1;
     a = -3;
 (a > 0) ? console.log('Верно') : console.log('Неверно');
 console.log('');
+
+// Fifth task
+console.log('Fifth task');
+    a = 0;
+let b = 1;
+console.log('Сумма равна ' + (a + b) + '. Разность равна ' + (a - b) + '. Произведение равно ' + (a * b) + '. Частное равно ' + (a / b) + '.');
+((a + b) > 1) ? console.log('Сумма в квадрате равна ' + ((a + b) ** 2)) : console.log('Сумма меньше либо равна единице');
+console.log('');
