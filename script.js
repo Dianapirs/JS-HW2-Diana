@@ -66,3 +66,17 @@ if (n >= 0 && n < 15) {
     console.log('Число превышает количество минут');
 }
 console.log('');
+
+// Eighth task 
+console.log('Eighth task');
+let day = 20; //число от 1 до 31
+if (day > 0 && day <= 10) {
+    console.log(day + ' число находится в первой декаде месяца');
+} else if (day > 10 && day <= 20) {
+    console.log(day + ' число находится во второй декаде месяца');
+} else if (day > 20 && day <= 31) {
+    console.log(day + ' число находится в третьей декаде месяца');
+} else {
+    console.log('Такого числа нет ни в одном месяце');
+}
+console.log('');
