@@ -69,7 +69,7 @@ console.log('');
 
 // Eighth task 
 console.log('Eighth task');
-let day = 20; //число от 1 до 31
+let day = 0; //число от 1 до 31
 if (day > 0 && day <= 10) {
     console.log(day + ' число находится в первой декаде месяца');
 } else if (day > 10 && day <= 20) {
@@ -94,3 +94,46 @@ console.log(num + ' день/дней/дня составят(-ит) ' + (num * 
 console.log(num + ' день/дней/дня составят(-ит) ' + (num * 24 * 60) + ' минуту/минуты/минут');
 console.log(num + ' день/дней/дня составят(-ит) ' + (num * 24 * 60 * 60) + ' секунду/секунды/секунд');
 console.log('');
+
+// Tenth task
+console.log('Tenth task'); 
+switch(true) { // определяем месяц
+    case(day >= 1 && day <= 31):
+        console.log('Зимний месяц январь');
+    break;
+    case(day >= 32 && day <= 59):
+        console.log('Зимний месяц февраль');
+    break;
+    case(day >= 60 && day <= 90):
+        console.log('Весенний месяц март');
+    break;
+    case(day >= 91 && day <= 120):
+        console.log('Весенний месяц апрель');
+    break;
+    case(day >= 121 && day <= 151):
+        console.log('Весенний месяц май');
+    break;
+    case(day >= 152 && day <= 181):
+        console.log('Летний месяц июнь');
+    break;
+    case(day >= 182 && day <= 212):
+        console.log('Летний месяц июль');
+    break;
+    case(day >= 213 && day <= 243):
+        console.log('Летний месяц август');
+    break;
+    case(day >= 244 && day <= 273):
+        console.log('Осенний месяц сентябрь');
+    break;
+    case(day >= 274 && day <= 304):
+        console.log('Осенний месяц октябрь');
+    break;
+    case(day >= 305 && day <= 334):
+        console.log('Осенний месяц ноябрь');
+    break;
+    case(day >= 335 && day <= 365):
+        console.log('Зимний месяц декабрь');
+    break;
+    default:
+        console.log('В году нет такого дня!');
+}
